@@ -1,7 +1,7 @@
 #  TODO - automated log cleanup and backup
 
 $fso = New-Object -com "Scripting.FileSystemObject"
-$gitlab_path = "Z:\Downloads\Chromium\New folder (2)"
+$gitlab_path = "C:\CHANGE\THIS\PATH\Gitlab\MergeRequests"
 $logfile = "$gitlab_path\gitlab-merge-request-cleanup.log"
 
 If (-not (Test-Path -Path $gitlab_path)){ # If hard-coded gitlab folder does not exist
